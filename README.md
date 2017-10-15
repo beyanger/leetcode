@@ -10,6 +10,7 @@ LeetCode
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/)| [C++](./algorithm/cpp/690.cpp)|Easy|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)|[C++](./algorithm/cpp/657.cpp)|Easy|
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Hard|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)| [C++](./algorithm/cpp/105.cpp)|Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)| [C++](./algorithm/cpp/2.cpp)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)| [C++](./algorithm/cpp/1.cpp)|Medium|
