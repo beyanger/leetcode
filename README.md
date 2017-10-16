@@ -4,7 +4,8 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)| [C++](./algorithm/cpp/695.cpp)|Easy|
+|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)|[C++](./algorithm/cpp/696.cpp)|Easy|
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](./algorithm/cpp/695.cpp)|Easy|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)|[C++](./algorithm/cpp/693.cpp)|Easy|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|[C++](./algorithm/cpp/692.cpp)|Medium|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/)|[C++](./algorithm/cpp/690.cpp)|Easy|
