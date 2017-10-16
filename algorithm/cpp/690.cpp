@@ -16,8 +16,12 @@ public:
 class Solution {
 public:
 	int getImportance(vector<Employee*>& employees, int id) {
-		int res = employees[id-1]->importance;
-		for (int em : employees[id-1]->subordinates) 
+
+		auto emp = find_if(employees.begin(), employees.end(), [id](const Employee* e) {
+					return e->id == id;
+				});
+		int res = (*emp)->importance;
+		for (int em : (*emp)->subordinates) 
 			res += getImportance(employees, em);
 		return res;
 	}
