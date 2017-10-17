@@ -16,6 +16,7 @@ LeetCode
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](./algorithm/cpp/617.cpp)|Easy|
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[C++](./algorithm/cpp/538.cpp)|Easy|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](./algorithm/cpp/114.cpp)|Medium|
@@ -23,6 +24,7 @@ LeetCode
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](./algorithm/cpp/105.cpp)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[C++](./algorithm/cpp/107.cpp)|Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](./algorithm/cpp/102.cpp)|Medium|
+|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[C++](./algorithm/cpp/99.cpp)|Hard|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithm/cpp/95.cpp)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](./algorithm/cpp/59.cpp)|Medium|
