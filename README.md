@@ -13,6 +13,7 @@ LeetCode
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)|[C++](./algorithm/cpp/657.cpp)|Easy|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](./algorithm/cpp/654.cpp)|Medium|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)|[C++](./algorithm/cpp/637.cpp)|Easy|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)|[C++](./algorithm/cpp/617.cpp)|Easy|
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
