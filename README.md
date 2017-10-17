@@ -2,7 +2,7 @@ LeetCode
 ========
 
 
-| # | Title | Solution | Difficulty |
+| No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)|[C++](./algorithm/cpp/696.cpp)|Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](./algorithm/cpp/695.cpp)|Easy|
@@ -11,6 +11,7 @@ LeetCode
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/)|[C++](./algorithm/cpp/690.cpp)|Easy|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/description/)|[C++](./algorithm/cpp/688.cpp)|Medium|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)|[C++](./algorithm/cpp/657.cpp)|Easy|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](./algorithm/cpp/654.cpp)|Medium|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)|[C++](./algorithm/cpp/637.cpp)|Easy|
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
