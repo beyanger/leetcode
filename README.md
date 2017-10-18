@@ -17,7 +17,7 @@ LeetCode
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[C++](./algorithm/cpp/538.cpp)|Easy|
-|449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algori/thm/cpp/449.cpp)|Medium|
+|449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
