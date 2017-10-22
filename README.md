@@ -20,6 +20,7 @@ LeetCode
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](./algorithm/cpp/146.cpp)|Hard|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](./algorithm/cpp/114.cpp)|Medium|
