@@ -30,6 +30,7 @@ LeetCode
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[C++](./algorithm/cpp/99.cpp)|Hard|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithm/cpp/95.cpp)|Medium|
+|65|[Valid Number](https://leetcode.com/problems/valid-number/description/)|[C++](./algorithm/cpp/65.cpp)|Hard|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](./algorithm/cpp/59.cpp)|Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](./algorithm/cpp/2.cpp)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[C++](./algorithm/cpp/1.cpp)|Medium|
