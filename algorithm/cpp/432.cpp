@@ -42,14 +42,14 @@ public:
 	}
 	/** Returns one of the keys with maximal value. */
 	string getMaxKey() {
-		if (v.size() == 0) return "";
+		if (v.empty()) return "";
 		sort(v.begin(), v.end(), cmp);
 		return v.back()->first;
 	}
 
 	/** Returns one of the keys with Minimal value. */
 	string getMinKey() {
-		if (v.size() == 0) return "";
+		if (v.empty()) return "";
 		sort(v.begin(), v.end(), cmp);
 		return v.front()->first;
 	}

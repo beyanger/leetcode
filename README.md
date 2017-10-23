@@ -22,6 +22,7 @@ LeetCode
 |432|[All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/)|[C++](./algorithm/cpp/432.cpp)|Hard|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithm/cpp/208.cpp)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](./algorithm/cpp/146.cpp)|Hard|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
