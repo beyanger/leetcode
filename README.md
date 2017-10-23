@@ -4,6 +4,7 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|715|[Range Module](https://leetcode.com/problems/range-module/description/)|[C++](./algorithm/cpp/715.cpp)|Hard|
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)|[C++](./algorithm/cpp/713.cpp)|Medium|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)|[C++](./algorithm/cpp/696.cpp)|Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[C++](./algorithm/cpp/695.cpp)|Easy|
