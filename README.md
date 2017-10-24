@@ -12,6 +12,7 @@ LeetCode
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|[C++](./algorithm/cpp/692.cpp)|Medium|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/)|[C++](./algorithm/cpp/690.cpp)|Easy|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/description/)|[C++](./algorithm/cpp/688.cpp)|Medium|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[C++](./algorithm/cpp/662.cpp)|Medium|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)|[C++](./algorithm/cpp/657.cpp)|Easy|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](./algorithm/cpp/654.cpp)|Medium|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)|[C++](./algorithm/cpp/637.cpp)|Easy|
