@@ -37,6 +37,7 @@ LeetCode
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithm/cpp/95.cpp)|Medium|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/description/)|[C++](./algorithm/cpp/65.cpp)|Hard|
+|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)|[C++](./algorithm/cpp/60.cpp)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](./algorithm/cpp/59.cpp)|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[C++](./algorithm/cpp/57.cpp)|Hard|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](./algorithm/cpp/2.cpp)|Medium|
