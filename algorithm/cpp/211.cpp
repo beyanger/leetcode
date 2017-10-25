@@ -3,7 +3,16 @@ class WordDictionary {
 	struct TrieNode {
 		TrieNode *next[26] = {0};
 		bool isExist = false;
-	} root;
+	};
+
+    void free(TrieNode *node) {
+        for (TrieNode *next : node->next) {
+            if (next) free(next);
+        }
+        delete node;
+    }
+
+    TrieNode *root = new TrieNode();
 
 public:
 	/** Initialize your data structure here. */
@@ -11,9 +20,12 @@ public:
 
 	}
 
+    ~WordDictionary() {
+        free(root);
+    }
 	/** Adds a word into the data structure. */
 	void addWord(string word) {
-		TrieNode *node = &root;
+		TrieNode *node = root;
 		for (char c : word) {
 			TrieNode *& tmp = node->next[c-'a'];
 			if (!tmp) tmp = new TrieNode();
@@ -41,7 +53,7 @@ private:
 public:
 	/** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
 	bool search(string word) {
-		return search(word, 0, &root);
+		return search(word, 0, root);
 	}
 };
 
