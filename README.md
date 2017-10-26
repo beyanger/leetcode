@@ -21,6 +21,7 @@ LeetCode
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/description/)|[C++](./algorithm/cpp/552.cpp)|Hard|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[C++](./algorithm/cpp/538.cpp)|Easy|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[C++](./algorithm/cpp/498.cpp)|Medium|
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |432|[All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/)|[C++](./algorithm/cpp/432.cpp)|Hard|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
