@@ -2,7 +2,7 @@
 class WordDictionary {
 	struct TrieNode {
 		TrieNode *next[26] = {0};
-		bool isExist = false;
+		bool isWord = false;
 	};
 
     void free(TrieNode *node) {
@@ -31,7 +31,7 @@ public:
 			if (!tmp) tmp = new TrieNode();
 			node = tmp;
 		}
-		node->isExist = true;
+		node->isWord = true;
 	}
 private:
 	bool search(string& word, int si, TrieNode *node) {
@@ -48,7 +48,7 @@ private:
 				if (!node) return false;
 			}
 		}
-		return node->isExist;
+		return node->isWord;
 	}
 public:
 	/** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */

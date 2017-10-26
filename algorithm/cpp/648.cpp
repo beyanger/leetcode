@@ -5,7 +5,7 @@ class Solution {
         struct TrieNode {
             TrieNode *next[26] = {0};
             string str;
-            bool isExist = false;
+            bool isWord = false;
         };
 
         TrieNode *root = new TrieNode();
@@ -31,7 +31,7 @@ class Solution {
                 if (!tmp) tmp = new TrieNode();
                 node = tmp;
             }
-            node->isExist = true;
+            node->isWord = true;
             node->str = word;
         }
 
@@ -41,7 +41,7 @@ class Solution {
             for (char c : word) {
                 node = node->next[c-'a'];
                 if (!node) return word;
-                if (node->isExist) return node->str;
+                if (node->isWord) return node->str;
             }
             return word;
         } 

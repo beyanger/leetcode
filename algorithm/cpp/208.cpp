@@ -1,7 +1,7 @@
 class Trie {
     struct TrieNode {
         TrieNode *next[26] = {0};
-        bool isExist = false;
+        bool isWord = false;
     };
 
     TrieNode *root = new TrieNode();
@@ -30,7 +30,7 @@ public:
             if (!tmp) tmp = new TrieNode();
             node = tmp;
         }
-        node->isExist = true;
+        node->isWord = true;
     }
 
     /** Returns if the word is in the trie. */
@@ -40,7 +40,7 @@ public:
             node = node->next[c-'a'];
             if (!node) return false;
         }
-        return node->isExist;
+        return node->isWord;
     }
 
     /** Returns if there is any word in the trie that starts with the given prefix. */
