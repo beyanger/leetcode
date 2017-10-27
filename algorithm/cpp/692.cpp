@@ -11,8 +11,10 @@ public:
         unordered_map<string, int> w;
         for (string& s :words) w[s]++;
         vector<pair<string, int> *> v;
-        for (auto itr = w.begin(); itr!=w.end(); itr++)
-            v.push_back(new pair<string, int>(itr->first, itr->second));
+
+		for (auto& itr : w)
+            v.push_back(new pair<string, int>(itr.first, itr.second));
+
         sort(v.begin(), v.end(), [](const pair<string, int>* a, const pair<string, int>* b) {
                 if (a->second != b->second) return a->second > b->second;
                 return a->first < b->first;
