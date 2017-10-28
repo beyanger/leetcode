@@ -46,6 +46,8 @@ LeetCode
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)|[C++](./algorithm/cpp/60.cpp)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](./algorithm/cpp/59.cpp)|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[C++](./algorithm/cpp/57.cpp)|Hard|
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)|[C++](./algorithm/cpp/44.cpp)|Hard|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](./algorithm/cpp/10.cpp)|Hard|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](./algorithm/cpp/2.cpp)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[C++](./algorithm/cpp/1.cpp)|Medium|
 
