@@ -4,6 +4,7 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[C++](./algorithm/cpp/719.cpp)|Hard|
 |715|[Range Module](https://leetcode.com/problems/range-module/description/)|[C++](./algorithm/cpp/715.cpp)|Hard|
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)|[C++](./algorithm/cpp/713.cpp)|Medium|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)|[C++](./algorithm/cpp/696.cpp)|Easy|
@@ -22,12 +23,14 @@ LeetCode
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/)|[C++](./algorithm/cpp/551.cpp)|Easy|
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[C++](./algorithm/cpp/538.cpp)|Easy|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[C++](./algorithm/cpp/498.cpp)|Medium|
+|480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/description/)|[C++](./algorithm/cpp/480.cpp)|Hard|
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |432|[All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/)|[C++](./algorithm/cpp/432.cpp)|Hard|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](./algorithm/cpp/322.cpp)|Medium|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)|[C++](./algorithm/cpp/304.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
+|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](./algorithm/cpp/224.cpp)|Hard|
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/)|[C++](./algorithm/cpp/211.cpp)|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithm/cpp/208.cpp)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
