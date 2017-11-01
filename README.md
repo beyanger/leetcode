@@ -32,6 +32,7 @@ LeetCode
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithm/cpp/208.cpp)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](./algorithm/cpp/146.cpp)|Hard|
+|135|[Candy](https://leetcode.com/problems/candy/description/)|[C++](./algorithm/cpp/135.cpp)|Hard|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)|[C++](./algorithm/cpp/130.cpp)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](./algorithm/cpp/114.cpp)|Medium|
