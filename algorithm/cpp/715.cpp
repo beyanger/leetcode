@@ -36,11 +36,9 @@ public:
 	}
 
 	void removeRange(int left, int right) {
-		update();
 		for (int i = 0; i < v.size();) {
 			PAIR& pr = v[i];
-			if (right <= pr.first) return;
-			else if (pr.second <= left) {
+			if (pr.second <= left || right <= pr.first) {
 				i++;
 			} else if (left <= pr.first) {
 				if (right < pr.second) {
