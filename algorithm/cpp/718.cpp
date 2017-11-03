@@ -7,7 +7,7 @@ public:
 
 		for (int i = 0; i < sa; i++) {
 			for (int j = sb-1; j >= 0; j--) {
-				A[i]==B[j] ? ans = max(ans, dp[j+1] = dp[j]+1) : dp[j+1] = 0;
+				ans = max(ans, dp[j+1] = (A[i]==B[j] ? dp[j]+1 : 0));
 			}
 		}
 		return ans;                                                        
