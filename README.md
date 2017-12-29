@@ -4,6 +4,7 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[C++](./algorithm/cpp/746.cpp)|Hard|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[C++](./algorithm/cpp/719.cpp)|Hard|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](./algorithm/cpp/718.cpp)|Medium|
 |715|[Range Module](https://leetcode.com/problems/range-module/description/)|[C++](./algorithm/cpp/715.cpp)|Hard|
