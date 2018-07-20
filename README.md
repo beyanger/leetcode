@@ -4,7 +4,8 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](./algori/thm/cpp/827.cpp)|Hard|
+|870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
+|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](./algorithm/cpp/827.cpp)|Hard|
 |763|[hrtition Labels](https://leetcode.com/problems/partition-labels/description/)|[C++](./algorithm/cpp/763.cpp)|Medium|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[C++](./algorithm/cpp/746.cpp)|Hard|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[C++](./algorithm/cpp/719.cpp)|Hard|
