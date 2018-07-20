@@ -5,6 +5,7 @@ LeetCode
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
+|869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/description/)|[C++](./algorithm/cpp/869.cpp)|Medium|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](./algorithm/cpp/827.cpp)|Hard|
 |763|[hrtition Labels](https://leetcode.com/problems/partition-labels/description/)|[C++](./algorithm/cpp/763.cpp)|Medium|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[C++](./algorithm/cpp/746.cpp)|Hard|
