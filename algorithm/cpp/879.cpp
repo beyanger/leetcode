@@ -10,11 +10,10 @@ int profitableSchemes(int G, int P, vector<int>& group, vector<int>& profit) {
         int g = group[i], p = profit[i];
         if (g > G) continue;
 
+        int gend = G - g;
         auto bp = dp;
         for (int m = 0; m <= P; m++) {
             int pend = m + p;
-            int gend = G - g;
-
             if (pend > P) pend = P;
             for (int n = 1; n <= gend; n++) {
                 if (dp[m][n]) {

@@ -4,6 +4,10 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|887|[Projection Area of 3D Shapes](https://leetcode.com/contest/weekly-contest-96/problems/projection-area-of-3d-shapes/)|[C++](./algorithm/cpp/887.cpp)|Easy|
+|886|[Reachable Nodes In Subdivided Graph](https://leetcode.com/contest/weekly-contest-96/problems/reachable-nodes-in-subdivided-graph/)|[C++](./algorithm/cpp/886.cpp)|Hard|
+|885|[Boats to Save People](https://leetcode.com/contest/weekly-contest-96/problems/boats-to-save-people/)|[C++](./algorithm/cpp/885.cpp)|Medium|
+|884|[Decoded String at Index](https://leetcode.com/contest/weekly-contest-96/problems/decoded-string-at-index/)|[C++](./algorithm/cpp/884.cpp)|Medium|
 |879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/description/)|[C++](./algorithm/cpp/879.cpp)|Hard|
 |878|[Nth Magical Number](https://leetcode.com/contest/weekly-contest-95/problems/nth-magical-number/)|[C++](./algorithm/cpp/878.cpp)|Hard|
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
