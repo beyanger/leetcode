@@ -10,6 +10,7 @@ LeetCode
 |884|[Decoded String at Index](https://leetcode.com/contest/weekly-contest-96/problems/decoded-string-at-index/)|[C++](./algorithm/cpp/884.cpp)|Medium|
 |879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/description/)|[C++](./algorithm/cpp/879.cpp)|Hard|
 |878|[Nth Magical Number](https://leetcode.com/contest/weekly-contest-95/problems/nth-magical-number/)|[C++](./algorithm/cpp/878.cpp)|Hard|
+|874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/)|[C++](./algorithm/cpp/874.cpp)|Easy|
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/description/)|[C++](./algorithm/cpp/869.cpp)|Medium|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](./algorithm/cpp/827.cpp)|Hard|

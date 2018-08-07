@@ -20,10 +20,6 @@ public:
         return max(sa, sb) % MOD;
     }
 
-
-
-
-
 long lowest_common_multiple(int m, int n) {
     int r, m1 = m, n1 = n;
 
