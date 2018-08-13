@@ -14,8 +14,10 @@ LeetCode
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/description/)|[C++](./algorithm/cpp/869.cpp)|Medium|
 |863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)|[C++](./algorithm/cpp/863.cpp)|Medium|
+|857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/)|[C++](./algorithm/cpp/857.cpp)|Hard|
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)|[C++](./algorithm/cpp/827.cpp)|Hard|
-|763|[hrtition Labels](https://leetcode.com/problems/partition-labels/description/)|[C++](./algorithm/cpp/763.cpp)|Medium|
+|778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/)|[C++](./algorithm/cpp/778.cpp)|Hard|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/description/)|[C++](./algorithm/cpp/763.cpp)|Medium|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[C++](./algorithm/cpp/746.cpp)|Hard|
 |719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)|[C++](./algorithm/cpp/719.cpp)|Hard|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)|[C++](./algorithm/cpp/718.cpp)|Medium|
@@ -42,6 +44,7 @@ LeetCode
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/description/)|[C++](./algorithm/cpp/480.cpp)|Hard|
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |432|[All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/)|[C++](./algorithm/cpp/432.cpp)|Hard|
+|417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](./algorithm/cpp/417.cpp)|Medium|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](./algorithm/cpp/322.cpp)|Medium|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)|[C++](./algorithm/cpp/304.cpp)|Medium|
@@ -71,6 +74,7 @@ LeetCode
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[C++](./algorithm/cpp/52.cpp)|Hard|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/description/)|[C++](./algorithm/cpp/51.cpp)|Hard|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)|[C++](./algorithm/cpp/44.cpp)|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)|[C++](./algorithm/cpp/42.cpp)|Hard|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](./algorithm/cpp/10.cpp)|Hard|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](./algorithm/cpp/2.cpp)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[C++](./algorithm/cpp/1.cpp)|Medium|
