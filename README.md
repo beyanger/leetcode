@@ -4,6 +4,7 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/description/)|[C++](./algorithm/cpp/887.cpp)|Hard|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/description/)|[C++](./algorithm/cpp/883.cpp)|Easy|
 |882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/description/)|[C++](./algorithm/cpp/882.cpp)|Hard|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)|[C++](./algorithm/cpp/881.cpp)|Medium|
