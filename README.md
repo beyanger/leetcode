@@ -4,12 +4,12 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|887|[Projection Area of 3D Shapes](https://leetcode.com/contest/weekly-contest-96/problems/projection-area-of-3d-shapes/)|[C++](./algorithm/cpp/887.cpp)|Easy|
-|886|[Reachable Nodes In Subdivided Graph](https://leetcode.com/contest/weekly-contest-96/problems/reachable-nodes-in-subdivided-graph/)|[C++](./algorithm/cpp/886.cpp)|Hard|
-|885|[Boats to Save People](https://leetcode.com/contest/weekly-contest-96/problems/boats-to-save-people/)|[C++](./algorithm/cpp/885.cpp)|Medium|
-|884|[Decoded String at Index](https://leetcode.com/contest/weekly-contest-96/problems/decoded-string-at-index/)|[C++](./algorithm/cpp/884.cpp)|Medium|
+|883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/description/)|[C++](./algorithm/cpp/883.cpp)|Easy|
+|882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/description/)|[C++](./algorithm/cpp/882.cpp)|Hard|
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)|[C++](./algorithm/cpp/881.cpp)|Medium|
+|880|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/description/)|[C++](./algorithm/cpp/880.cpp)|Medium|
 |879|[Profitable Schemes](https://leetcode.com/problems/profitable-schemes/description/)|[C++](./algorithm/cpp/879.cpp)|Hard|
-|878|[Nth Magical Number](https://leetcode.com/contest/weekly-contest-95/problems/nth-magical-number/)|[C++](./algorithm/cpp/878.cpp)|Hard|
+|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/description/)|[C++](./algorithm/cpp/878.cpp)|Hard|
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/)|[C++](./algorithm/cpp/874.cpp)|Easy|
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/description/)|[C++](./algorithm/cpp/870.cpp)|Medium|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/description/)|[C++](./algorithm/cpp/869.cpp)|Medium|
@@ -42,11 +42,14 @@ LeetCode
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[C++](./algorithm/cpp/538.cpp)|Easy|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[C++](./algorithm/cpp/498.cpp)|Medium|
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/description/)|[C++](./algorithm/cpp/480.cpp)|Hard|
+|472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)|[C++](./algorithm/cpp/472.cpp)|Hard|
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)|[C++](./algorithm/cpp/449.cpp)|Medium|
 |432|[All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/description/)|[C++](./algorithm/cpp/432.cpp)|Hard|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[C++](./algorithm/cpp/417.cpp)|Medium|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](./algorithm/cpp/347.cpp)|Medium|
+|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](./algorithm/cpp/337.cpp)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](./algorithm/cpp/322.cpp)|Medium|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)|[C++](./algorithm/cpp/312.cpp)|Hard|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)|[C++](./algorithm/cpp/304.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](./algorithm/cpp/224.cpp)|Hard|
@@ -55,6 +58,7 @@ LeetCode
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithm/cpp/208.cpp)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](./algorithm/cpp/146.cpp)|Hard|
+|140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/)|[C++](./algorithm/cpp/140.cpp)|Hard|
 |135|[Candy](https://leetcode.com/problems/candy/description/)|[C++](./algorithm/cpp/135.cpp)|Hard|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)|[C++](./algorithm/cpp/130.cpp)|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[C++](./algorithm/cpp/124.cpp)|Hard|
@@ -67,6 +71,7 @@ LeetCode
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[C++](./algorithm/cpp/97.cpp)|Hard|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](./algorithm/cpp/95.cpp)|Medium|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|[C++](./algorithm/cpp/72.cpp)|Hard|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/description/)|[C++](./algorithm/cpp/65.cpp)|Hard|
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)|[C++](./algorithm/cpp/60.cpp)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[C++](./algorithm/cpp/59.cpp)|Medium|

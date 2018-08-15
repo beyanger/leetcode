@@ -14,9 +14,9 @@ class Solution {
         return false;
     }
     bool valid(float a, float b, float c, float d) {
-        if (valid(a+b, c, d) || valid(a-b, c, d) || valid(a*b, c, d) || nonzero(b)&&valid(a/b, c, d)) return true;
-        if (valid(a, b+c, d) || valid(a, b-c, d) || valid(a, b*c, d) || nonzero(c)&&valid(a, b/c, d)) return true;
-        if (valid(a, b, c+d) || valid(a, b, c-d) || valid(a, b, c*d) || nonzero(d)&&valid(a, b, c/d)) return true;
+        if (valid(a+b, c, d) || valid(a-b, c, d) || valid(a*b, c, d) || valid(a/b, c, d)) return true;
+        if (valid(a, b+c, d) || valid(a, b-c, d) || valid(a, b*c, d) || valid(a, b/c, d)) return true;
+        if (valid(a, b, c+d) || valid(a, b, c-d) || valid(a, b, c*d) || valid(a, b, c/d)) return true;
         return false;
     }
 
