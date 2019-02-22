@@ -4,6 +4,7 @@ LeetCode
 
 | No.| Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|924|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|[C++](./algorithm/cpp/924.cpp)|Hard|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/description/)|[C++](./algorithm/cpp/887.cpp)|Hard|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/description/)|[C++](./algorithm/cpp/883.cpp)|Easy|
 |882|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/description/)|[C++](./algorithm/cpp/882.cpp)|Hard|
@@ -31,7 +32,9 @@ LeetCode
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|[C++](./algorithm/cpp/692.cpp)|Medium|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/)|[C++](./algorithm/cpp/690.cpp)|Easy|
 |688|[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/description/)|[C++](./algorithm/cpp/688.cpp)|Medium|
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)|[C++](./algorithm/cpp/684.cpp)|Medium|
 |679|[24 Game](https://leetcode.com/problems/24-game/description/)|[C++](./algorithm/cpp/679.cpp)|Hard|
+|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)|[C++](./algorithm/cpp/678.cpp)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[C++](./algorithm/cpp/662.cpp)|Medium|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)|[C++](./algorithm/cpp/657.cpp)|Easy|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](./algorithm/cpp/654.cpp)|Medium|
@@ -51,12 +54,14 @@ LeetCode
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[C++](./algorithm/cpp/337.cpp)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/description/)|[C++](./algorithm/cpp/322.cpp)|Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)|[C++](./algorithm/cpp/312.cpp)|Hard|
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[C++](./algorithm/cpp/309.cpp)|Medium|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)|[C++](./algorithm/cpp/304.cpp)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)|[C++](./algorithm/cpp/297.cpp)|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[C++](./algorithm/cpp/224.cpp)|Hard|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|[C++](./algorithm/cpp/212.cpp)|Hard|
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/)|[C++](./algorithm/cpp/211.cpp)|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[C++](./algorithm/cpp/208.cpp)|Medium|
+|174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/description/)|[C++](./algorithm/cpp/174.cpp)|Hard|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[C++](./algorithm/cpp/155.cpp)|Easy|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[C++](./algorithm/cpp/146.cpp)|Hard|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/)|[C++](./algorithm/cpp/140.cpp)|Hard|
@@ -67,7 +72,7 @@ LeetCode
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](./algorithm/cpp/111.cpp)|Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](./algorithm/cpp/105.cpp)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[C++](./algorithm/cpp/107.cpp)|Medium|
-|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](./algorithm/cpp/102.cpp)|Medium|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](./algorithm/cpp/102.cpp)[Golang](./algorithm/golang/102.go)|Medium|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[C++](./algorithm/cpp/99.cpp)|Hard|
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[C++](./algorithm/cpp/97.cpp)|Hard|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
