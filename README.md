@@ -72,7 +72,7 @@ LeetCode
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](./algorithm/cpp/111.cpp)|Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](./algorithm/cpp/105.cpp)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)|[C++](./algorithm/cpp/107.cpp)|Medium|
-|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](./algorithm/cpp/102.cpp)[Golang](./algorithm/golang/102.go)|Medium|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](./algorithm/cpp/102.cpp)  [Golang](./algorithm/golang/102.go)|Medium|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)|[C++](./algorithm/cpp/99.cpp)|Hard|
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[C++](./algorithm/cpp/97.cpp)|Hard|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|[C++](./algorithm/cpp/96.cpp)|Medium|
