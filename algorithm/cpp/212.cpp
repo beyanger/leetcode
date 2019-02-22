@@ -1,6 +1,6 @@
 class Solution {
     struct TrieNode {
-        TrieNode *next[26] = {0};
+        TrieNode *next[26] = {};
         bool isWord = false;
         string word;
     };

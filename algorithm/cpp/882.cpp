@@ -2,48 +2,28 @@
 class Solution {
 public:
     int reachableNodes(vector<vector<int>>& edges, int M, int N) {
-        vector<int> step(N, -1);
-        vector<vector<short>> dp(N, vector<short>(N, -1));
-        unordered_set<int> p1, p2;
-        unordered_set<int> *q1 = &p1, *q2 = &p2;
-
-        for (auto& e : edges) {
-            int x = e[0], y = e[1];
-            dp[x][y] = dp[y][x] = e[2];
+        vector<vector<array<int, 2>>> dp(N);
+        for (vector<int>& e : edges) {
+            dp[e[0]].push_back({e[1], e[2]});
+            dp[e[1]].push_back({e[0], e[2]});
         }
-
-        p1.insert(0);
-        step[0] = M;
-        while (!q1->empty()) {
-            for (auto itr = q1->begin(); itr != q1->end(); itr++) {
-                int cr = *itr;
-                for (int i = 0; i < N; i++) {
-                    int r = dp[cr][i];
-                    if (r >= 0) {
-                        int ns = step[cr] - r - 1;
-                        if (ns > step[i]) {
-                            step[i] = ns;
-                            q2->insert(i);
-                        }
-                    }
-                }
+        vector<int> radius(N, -1);
+        queue<array<int, 2>> q;
+        for (q.push({0, M}); !q.empty(); q.pop()) {
+            int i = q.front()[0], r = q.front()[1];
+            if (r <= radius[i]) continue;
+            radius[i] = r;
+            for (array<int, 2>& next : dp[i]) {
+                int ni = next[0];
+                int nr = r - next[1] - 1;
+                if (nr > radius[ni]) q.push({ni, nr});
             }
-            q1->clear();
-            swap(q1, q2);
         }
-
         int ans = 0;
-        for (int i = 0; i < N; i++) {
-            if (step[i] >= 0)
-                ans++;
-            for (int j = i+1; j < N; j++) {
-                int r = dp[i][j];
-                if (r > 0) {
-                    int si = max(step[i], 0);
-                    int sj = max(step[j], 0);
-                    ans += min(si+sj, r);
-                }
-            }
+        for (int r : radius) 
+            if (r >= 0) ans++;
+        for (vector<int>& e : edges) {
+            ans += min(max(radius[e[0]], 0)+max(radius[e[1]], 0) , e[2]);
         }
         return ans;
     }

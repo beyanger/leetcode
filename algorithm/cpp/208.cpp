@@ -1,10 +1,8 @@
 class Trie {
     struct TrieNode {
-        TrieNode *next[26] = {0};
+        TrieNode *next[26] = {};
         bool isWord = false;
     };
-
-    TrieNode *root = new TrieNode();
 
     void free(TrieNode *node) {
         for (TrieNode *next : node->next) {
@@ -13,14 +11,11 @@ class Trie {
         delete node;
     }
 
+    TrieNode *root;
 public:
     /** Initialize your data structure here. */
-    Trie() {
-
-    }
-    ~Trie() {
-        free(root);
-    }
+    Trie() : root(new TrieNode()) { }
+    ~Trie() { free(root); }
 
     /** Inserts a word into the trie. */
     void insert(string word) {

@@ -7,8 +7,7 @@ public:
         nums.push_back(1);
 
         for (int len = 1; len <= n; len++) {
-            int send = n - len + 1;
-            for (int start = 1, end = len; start <= send; start++, end++) {
+            for (int start = 1, end = len; end <= n; start++, end++) {
                 for (int mid = start; mid <= end; mid++) {
                     dp[start][end] = max(dp[start][end], dp[start][mid-1] + nums[start-1]*nums[mid]*nums[end+1] + dp[mid+1][end]);            
                 }

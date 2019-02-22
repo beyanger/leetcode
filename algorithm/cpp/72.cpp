@@ -4,7 +4,11 @@ public:
     int minDistance(string word1, string word2) {
 
         int s1 = word1.size(), s2 = word2.size();
+        if (s1 == 0) return s2;
+        if (s2 == 0) return s1;
+
         vector<vector<int>> dp(s1+1, vector<int>(s2+1));
+
         for (int i = 1; i <= s1; i++) dp[i][0] = i;
         for (int j = 1; j <= s2; j++) dp[0][j] = j;
 

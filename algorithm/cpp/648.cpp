@@ -1,7 +1,7 @@
 
 class Solution {
 
-    class Trie {
+    class TrieTree {
         struct TrieNode {
             TrieNode *next[26] = {0};
             string str;
@@ -19,14 +19,14 @@ class Solution {
 
     public:
         /** Initialize your data structure here. */
-        ~Trie() {
+        ~TrieTree() {
             free(root);
         }
 
         /** Inserts a word into the trie. */
         void insert(string word) {
             TrieNode *node = root;
-            for (char c: word) {
+            for (char c : word) {
                 TrieNode *& tmp = node->next[c-'a'];
                 if (!tmp) tmp = new TrieNode();
                 node = tmp;
@@ -35,7 +35,7 @@ class Solution {
             node->str = word;
         }
 
-        /** Returns if the word is in the trie. */
+        /** Returns the prefix if word's prefix is in the trie or origin word. */
         string search(string word) {
             TrieNode *node = root;
             for (char c : word) {
@@ -50,12 +50,11 @@ class Solution {
 public:
     string replaceWords(vector<string>& dict, string sentence) {
         stringstream out(sentence), in;
-        Trie tr;
+        TrieTree tr;
         for (string& s : dict) tr.insert(s);
 
-        while (!out.eof()) {
-            string t;
-            out >> t;
+        string t;
+        while (out >> t) {
             in << tr.search(t);
             if (!out.eof())
                 in << " ";

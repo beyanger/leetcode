@@ -1,40 +1,30 @@
 class Solution {
-public:
-    struct point {
+    struct Point {
         int t, y, x;
-        friend bool operator<(const point& p1, const point& p2) {
-            return p1.t > p2.t;
+        friend bool operator<(const Point& a, const Point& b) {
+            return a.t > b.t;
         }
     };
 public:
     int swimInWater(vector<vector<int>>& grid) {
-        priority_queue<point> q;
-        int ts = grid.front().front();
-        q.push({ts, 0, 0});
+        int lg = grid.size();
+        vector<vector<int>> ex(lg, vector<int>(lg));
+        priority_queue<Point> q;
+        q.push({grid[0][0], 0, 0});
 
-        int h = grid.size()-1, w = grid[0].size()-1;
-        vector<vector<bool>> visited(h+1, vector<bool>(w+1, false));
-
+        int ans = grid[0][0];
         while (!q.empty()) {
-            point top = q.top();
-            q.pop();
-            int y = top.y, x = top.x, t = top.t;
-            visited[y][x] = true;
-            if (y > 0 && !visited[y-1][x]) 
-                q.push({grid[y-1][x], y-1, x});
-            if (y < h && !visited[y+1][x]) 
-                q.push({grid[y+1][x], y+1, x});
-            if (x > 0 && !visited[y][x-1]) 
-                q.push({grid[y][x-1], y, x-1});
-            if (x < w && !visited[y][x+1]) 
-                q.push({grid[y][x+1], y, x+1});
-
-            ts = max(ts, t);
-
-            if (visited.back().back()) 
-                return ts;
+            Point top = q.top(); q.pop();
+            int x = top.x, y = top.y;
+            if (ex[y][x]) continue;
+            ans = max(ans, top.t);
+            if (x == y && x == lg-1) return ans;
+            ex[y][x] = 1;
+            if (y > 0 && ex[y-1][x] == 0) q.push({grid[y-1][x], y-1, x});
+            if (y < lg-1 && ex[y+1][x] == 0) q.push({grid[y+1][x], y+1, x});
+            if (x > 0 && ex[y][x-1] == 0) q.push({grid[y][x-1], y, x-1});
+            if (x < lg-1 && ex[y][x+1] == 0) q.push({grid[y][x+1], y, x+1});
         }
-
         return -1;
     }
 };

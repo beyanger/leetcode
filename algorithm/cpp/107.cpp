@@ -11,23 +11,23 @@
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        if (!root) return {};
-        vector<vector<int>> res;
-        vector<TreeNode *> le;
-        le.push_back(root);
-        while (le.size() > 0) {
-            vector<int> l;
-            vector<TreeNode *> ne;
-            for (auto node : le) {
-                l.push_back(node->val);
-                if (node->left) ne.push_back(node->left);
-                if (node->right) ne.push_back(node->right);
+        vector<vector<int>> ans;
+        if (!root) return ans;
+        vector<int> cr;
+        queue<TreeNode *> q;
+        q.push(root);
+
+        while (!q.empty()) {
+            for (int qs = q.size(); qs > 0; qs--) {
+                TreeNode *rt = q.front(); q.pop();
+                cr.emplace_back(rt->val);
+                if (rt->left) q.push(rt->left);
+                if (rt->right) q.push(rt->right);
             }
-            res.push_back(l);
-            le = ne;
+            ans.emplace_back(move(cr));
         }
-		reverse(res.begin(), res.end());
-        return res;
+		reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
 

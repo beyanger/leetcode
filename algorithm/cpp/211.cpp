@@ -1,7 +1,7 @@
 
 class WordDictionary {
 	struct TrieNode {
-		TrieNode *next[26] = {0};
+		TrieNode *next[26] = {};
 		bool isWord = false;
 	};
 
@@ -17,7 +17,6 @@ class WordDictionary {
 public:
 	/** Initialize your data structure here. */
 	WordDictionary() {
-
 	}
 
     ~WordDictionary() {
@@ -36,7 +35,7 @@ public:
 private:
 	bool search(string& word, int si, TrieNode *node) {
 		for (int i = si; i < word.size(); i++) {
-			char &c = word[i];
+			char c = word[i];
 			if (c == '.') {
 				for (TrieNode *n : node->next) {
 					if (n && search(word, i+1, n))
@@ -56,5 +55,4 @@ public:
 		return search(word, 0, root);
 	}
 };
-
 

@@ -1,26 +1,20 @@
 
 class Solution {
-	void dfs(int i, int n, vector<bool>& v, vector<bool>& a, vector<bool>& b, int& cnt) {
-		if (i == n) {
-			cnt++;
-			return;
-		}
-		for (int j = 0; j < n; j++) {
-			int b1 = i + j, b2 = i-j+n-1;
-			if (!v[j] && !a[b1] && !b[b2]) {
-				v[j] = a[b1] = b[b2] = true;
-				dfs(i+1, n, v, a, b, cnt);
-				v[j] = a[b1] = b[b2] = false;
-			}                                                                 
-		}
-	}
+    int col[16] = {}, right[32] = {}, left[32] = {};
+    int ans = 0;
+    void dfs(int n, int row) {
+        if (row == n) { ans++; return; }
+        for (int i = 0; i < n; i++) {
+            if (col[i] || right[i+row] || left[i-row+n]) continue;
+            col[i] = right[i+row] = left[i-row+n] = 1;
+            dfs(n, row+1);
+            col[i] = right[i+row] = left[i-row+n] = 0;
+        }
+    }
 
 public:
-	int totalNQueens(int n) {
-		int ans = 0;
-		vector<bool> v(n), a(2*n), b(2*n);
-		dfs(0, n, v, a, b, ans);
-		return ans;
-	}
+    int totalNQueens(int n) {
+        dfs(n, 0);
+        return ans;
+    }
 };
-
